@@ -1,0 +1,1 @@
+srun --kill-on-bad-exit -p a100 -c 48 --gres="gpu:1" python salmon/SALMONN-7B/inf_data.py --ckpt_path salmon/SALMONN-7B/salmonn_7b_v0.pth --whisper_path salmon/whisper-large-v2/ --beats_path salmon/BEATs_iter3_plus_AS2M_finetuned_on_AS2M_cpt2\ \(2\).pt --vicuna_path salmon/vicuna-7b-v1.5/
